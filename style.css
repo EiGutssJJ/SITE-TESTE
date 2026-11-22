@@ -98,10 +98,11 @@ body{
     top: 30px;
     right: 35px;
     z-index:1000;
+    margin: 1rem;
 }
-.carrinho-canto img {
-    width: 45px;
-    height: auto;
+.carrinho-canto img:hover{
+    width: 40px;
+    height: 40px;
 }
 .aba-carrinho{
     position: fixed;
