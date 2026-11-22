@@ -20,3 +20,9 @@ function removerItem(indice) {
     itensCarrinho.splice(indice,1);
     atualizarCarrinho();
 }
+
+//CALCULAR VALORES
+function atualizarCarrinho() {
+    const lista = document.getElementById("lista-carrinho");
+    const totalTexto = document.getElementById("total-carrinho");
+}
