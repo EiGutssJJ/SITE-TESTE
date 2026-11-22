@@ -99,7 +99,7 @@ body{
     right: 35px;
     z-index:1000;
 }
-.carrinho-canto img {
+.carrinho-canto img:hover{
     width: 45px;
     height: auto;
 }
