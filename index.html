@@ -26,17 +26,48 @@
         </button>
 
         <div class="carrinho-aberto">
-            <a href="javascript:void(0)" onclick="abrirCarrinho()" class="carrinho-canto" >
-            <img src="imagens/carrinho.png" alt="carrinho" class="crescer">
-            </a>
-            <!--GAVETA CARRINHO-->
-            <div id="aba-carrinho" class="aba-carrinho">
-                <h3>Seu Carrinho</h3>
-                <p>Nenhum item adcionado ainda.</p>
-                <button type="button" onclick="fecharCarrinho()">Fechar</button>
+    <a href="javascript:void(0)" onclick="abrirCarrinho()" class="carrinho-canto">
+        <img src="imagens/carrinho.png" alt="carrinho">
+    </a>
 
+    <!--GAVETA CARRINHO-->
+    <div id="aba-carrinho" class="aba-carrinho">
+        
+        <!-- 1. Lista de compras e botão finalizar -->
+        <div id="conteudo-carrinho" style="overflow-y: auto; flex: 1;">
+            <h3>Seu Carrinho</h3>
+            
+            <!-- O JavaScript vai escrever os doces aqui dentro -->
+            <div id="lista-carrinho" style="margin: 15px 0;">
+                <p>Nenhum item adicionado ainda.</p>
             </div>
+
+            <!-- O JavaScript vai somar o valor aqui -->
+            <p id="total-carrinho" style="font-weight: bold; font-size: 1.1rem; margin-bottom: 20px;">
+                Total: R$ 0,00
+            </p>
+
+            <button type="button" onclick="finalizarCompra()" style="width: 100%;">
+                Finalizar Compra
+            </button>
         </div>
+
+        <!-- 2. Mensagem que aparece depois de clicar em Finalizar Compra -->
+        <div id="pedido-confirmado" style="display: none; text-align: center; margin: auto 0;">
+            <h3 style="border: none; color: #2e7d32;">Compra Realizada!</h3>
+            <p id="resumo-final" style="margin: 15px 0; font-size: 0.95rem;"></p>
+            <button type="button" onclick="novoPedido()" style="width: 100%;">
+                Continuar Comprando
+            </button>
+        </div>
+
+        <!-- 3. Botão Fechar -->
+        <button type="button" onclick="fecharCarrinho()" style="margin-top: 15px; background-color: #8c4a2b; width: 100%;">
+            Fechar
+        </button>
+
+    </div>
+</div>
      <img src="imagens/Bandeja de brigadeiros com toppers 40.png" alt="bandeja de brigadeiro 40">
      <img src="imagens/doces 2.png" alt="">
      <img src="imagens/doces.png" alt="">
