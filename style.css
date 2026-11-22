@@ -5,7 +5,7 @@
     background-color: #F5DBC4;
 }
 header{
-    background-color:#A67153;
+    background-color:#F2E9D8;
 }
 .cabecalho {
     display: flex;
@@ -18,14 +18,19 @@ header{
 .logo {
     width: 100px;
     height: auto;
-    background-color: ;
+    background-color: #F2E9D8;
 }
 
 /*LINKS RODAPÉ*/
+nav{
+    background-color: #F2E9D8;
+}
+
 .menu ul {
     list-style: none;
     display: flex;
     align-items: center;
+    background-color: #F2E9D8;
 }
 
 .sessao {
@@ -35,6 +40,7 @@ header{
 }
 
 .menu li {
+     
     padding: 0 15px;
     border-right: 1px solid #4B1B06; /* Cria a barrinha vertical */
 }
