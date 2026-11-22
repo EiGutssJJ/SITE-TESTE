@@ -6,8 +6,8 @@ function abrirCarrinho(){
     document.getElementById("aba-carrinho").classList.add("aberto");
 }
 
-function fecharCarrinho(){
-    document.getElementById("")
+function fecharCarrinho() {
+    document.getElementById("aba-carrinho").classList.remove("aberto");
 }
 
 //COLOCAR E TIRAR RSRS ITENS
