@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+/*CABEÇALHO*/
+*{
+    background-color: #F5DBC4;
+}
+.cabecalho{
+    text-align: center;
+    color: #4B1B06;
+    padding: 15px;
+    
+}
+
+/*LINKS RODAPÉ*/
+nav {
+    text-align: center;
+}
+/**/
