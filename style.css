@@ -65,9 +65,8 @@ body{
     color: var(--cor-primaria);
     border-bottom: 2px solid var(--cor-primaria);
     padding-bottom: 2px;
-    width: 45px;
-    height: auto;
-    transition: 0.2s linear;
+    transition: opacity 0.3s;
+   
 
     
 }
