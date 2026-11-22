@@ -70,6 +70,9 @@ body{
 
     
 }
+.orcamento a{
+    color: var(--cor-secundaria);
+}
 .orcamento{
     border-radius: 14px;
     padding: 15px;
@@ -99,4 +102,38 @@ body{
 .carrinho-canto img {
     width: 45px;
     height: auto;
+}
+.aba-carrinho{
+    position: fixed;
+    top: 0;
+    right: -350px;
+    width: 320px;
+    height: 100Vh;
+    background-color: var(--cor-secundaria);
+    color:  var(--cor-primaria);
+    border-left: 2px solid var(--cor-primaria);
+    padding: 25px;
+    box-shadow: -4px 0 15px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    z-index: 2000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.aba-carrinho.aberto {
+    right: 0;
+}
+.aba-carrinho h3 {
+    border-bottom: 1px solid #4B1B06;
+    padding-bottom: 10px;
+}
+
+.aba-carrinho button {
+    background-color: #4B1B06;
+    color: #F5DBC4;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
 }
