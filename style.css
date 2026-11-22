@@ -5,7 +5,7 @@
     background-color: #F5DBC4;
 }
 header{
-    background-color: #C78329;
+    background-color:#A67153;
 }
 .cabecalho {
     display: flex;
@@ -18,6 +18,7 @@ header{
 .logo {
     width: 100px;
     height: auto;
+    background-color: ;
 }
 
 /*LINKS RODAPÉ*/
@@ -27,7 +28,11 @@ header{
     align-items: center;
 }
 
-
+.sessao {
+    padding: 3rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
 
 .menu li {
     padding: 0 15px;
