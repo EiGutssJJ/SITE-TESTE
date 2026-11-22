@@ -6,7 +6,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #F2E9D8
+}
 
 .cabecalho {
     display: flex;
@@ -14,7 +16,7 @@
     justify-content: flex-start; 
     gap: 40px;                   
     padding: 15px 40px;
-    background-color: #F2E9D8;
+    background-color:#EBD2BC;
 }
 
 .logo {
@@ -24,27 +26,20 @@
 }
 
 /*LINKS RODAPÉ*/
-
-
 .menu ul {
     list-style: none;
     display: flex;
     align-items: center;
     
 }
-
-
-
 .menu li {
      
     padding: 0 15px;
     border-right: 1px solid #4B1B06; /* Cria a barrinha vertical */
 }
-
 .menu li:last-child {
     border-right: none; /* Remove a barrinha do último item */
 }
-
 .menu a {
     text-decoration: none;
     color: #4B1B06;
@@ -52,7 +47,6 @@
     transition: opacity 0.3s;
     font-weight: bold;
 }
-
 .menu a:hover {
     opacity: 0.7;
 }
