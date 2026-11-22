@@ -4,26 +4,20 @@
 *{
     background-color: #F5DBC4;
 }
-.cabecalho{
-    text-align: center;
-    color: #4B1B06;
-    padding: 15px;
-    
+header{
+    background-color: #C78329;
 }
-section {
-        padding: 3rem 2rem;
-        margin: 0 auto;
-        max-width: 1200px;
-    }
-.logo{
-    width: 150px;
-    height: auto;
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 40px;                   
+    padding: 15px 40px;
+}
 
-}
-.marca{
-   display: flex;
-   align-items: center;
-   gap: 10px;
+.logo {
+    width: 100px;
+    height: auto;
 }
 
 /*LINKS RODAPÉ*/
@@ -47,8 +41,9 @@ section {
 .menu a {
     text-decoration: none;
     color: #4B1B06;
-    font-size: 0.95rem;
+    font-size: 16px;
     transition: opacity 0.3s;
+    font-weight: bold;
 }
 
 .menu a:hover {
