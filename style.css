@@ -15,10 +15,15 @@ section {
         margin: 0 auto;
         max-width: 1200px;
     }
-header img{
+.logo{
     width: 150px;
     height: auto;
 
+}
+.marca{
+   display: flex;
+   align-items: center;
+   gap: 10px;
 }
 
 /*LINKS RODAPÉ*/
