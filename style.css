@@ -85,7 +85,7 @@ body{
 .carrinho-canto{
     position: fixed;
     top: 30px;
-    right: 25px;
+    right: 35px;
     z-index:1000;
 }
 .carrinho-canto img {
