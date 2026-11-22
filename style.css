@@ -1,43 +1,38 @@
 @charset "UTF-8";
 
 /*CABEÇALHO*/
-*{
-    background-color: #F5DBC4;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-header{
-    background-color:#F2E9D8;
-}
+
 .cabecalho {
     display: flex;
     align-items: center;
     justify-content: flex-start; 
     gap: 40px;                   
     padding: 15px 40px;
+    background-color: #F2E9D8;
 }
 
 .logo {
     width: 100px;
     height: auto;
-    background-color: #F2E9D8;
+    
 }
 
 /*LINKS RODAPÉ*/
-nav{
-    background-color: #F2E9D8;
-}
+
 
 .menu ul {
     list-style: none;
     display: flex;
     align-items: center;
-    background-color: #F2E9D8;
+    
 }
 
-.sessao {
-    padding: 3rem 2rem;
-    margin: 0 auto;
-    max-width: 1200px;
-}
+
 
 .menu li {
      
