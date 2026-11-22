@@ -82,3 +82,13 @@ body{
 .orcamento a:hover {
     opacity: 0.7
 }
+.carrinho-canto{
+    position: fixed;
+    top: 30px;
+    right: 25px;
+    z-index:1000;
+}
+.carrinho-canto img {
+    width: 45px;
+    height: auto;
+}
