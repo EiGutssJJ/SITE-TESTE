@@ -1,10 +1,22 @@
 @charset "UTF-8";
 
+    :root {
+        --cor-primaria: #4B1B06;
+        --cor-secundaria: #EBD2BC;
+        --cor-fundo: #F2E9D8;
+        --borda: 1px solid #4B1B06;
+        --fonte-principal: 'Arial', sans-serif 26px;
+        --fonte-secundaria: 'Arial', sans-serif 16px;
+    }
+
+ 
 /*CABEÇALHO*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: 0.2 linear;
+    
 }
 body{
     background-color: #F2E9D8
@@ -49,5 +61,16 @@ body{
 }
 .menu a:hover {
     opacity: 0.7;
+    
 }
-
+.orcamento{
+    border-radius: 14px;
+    padding: 15px;
+    border: none;
+    background-color:  #4B1B06;
+}
+.orcamento a{
+    color:#EBD2BC;
+    text-decoration: none;
+    font-weight: bold;
+}
