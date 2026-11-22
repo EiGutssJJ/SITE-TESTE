@@ -15,6 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: linear 0.3s;
     
 
 }
@@ -103,6 +104,7 @@ body{
 .carrinho-canto img:hover{
     width: 40px;
     height: 40px;
+    transition: linear 0.3s;
 }
 .aba-carrinho{
     position: fixed;
@@ -136,5 +138,11 @@ body{
     padding: 10px;
     border-radius: 8px;
     font-weight: bold;
-    cursor: pointer;
+   cursor: pointer;
+
+
+.crescer{
+    width: 35px;
+    height: 35px;
+    transition: linear 0.2s;
 }
