@@ -10,8 +10,15 @@
     padding: 15px;
     
 }
+section {
+        padding: 3rem 2rem;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
 header img{
-    
+    width: 150px;
+    height: auto;
+
 }
 
 /*LINKS RODAPÉ*/
@@ -20,6 +27,8 @@ header img{
     display: flex;
     align-items: center;
 }
+
+
 
 .menu li {
     padding: 0 15px;
@@ -40,5 +49,4 @@ header img{
 .menu a:hover {
     opacity: 0.7;
 }
-
 
